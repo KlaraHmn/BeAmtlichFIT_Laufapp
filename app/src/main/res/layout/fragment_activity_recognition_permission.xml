@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="@string/allow_activity_recognition"
+        android:text="@string/aktivitätsaufzeichnung"
         android:textAppearance="?attr/textAppearanceHeadline5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/image_walk" />
@@ -33,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="@string/activity_recognition_rationale"
+        android:text="@string/erklärung"
         android:textAppearance="?attr/textAppearanceBodyMedium"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_permission_title" />
@@ -53,27 +53,17 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
-        android:text="@string/revoke_permission_rationale"
+        android:text="@string/berechtigungsfestlegung"
         android:textAppearance="?attr/textAppearanceBodyMedium"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/icon_revoke_permission"
         app:layout_constraintTop_toTopOf="@+id/icon_revoke_permission" />
 
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="12dp"
-        android:text="@string/data_consent"
-        android:textAppearance="?attr/textAppearanceBodySmall"
-        app:layout_constraintBottom_toTopOf="@+id/button_continue"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_continue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/action_continue"
+        android:text="@string/bestätigen"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="16dp" />
 

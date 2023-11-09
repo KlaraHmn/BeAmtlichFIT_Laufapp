@@ -8,24 +8,24 @@
     <fragment
         android:id="@+id/settingsFragment"
         android:name="pl.bk20.forest.settings.SettingsFragment"
-        android:label="@string/settings" />
+        android:label="@string/einstellungen" />
 
     <fragment
         android:id="@+id/progressFragment"
         android:name="pl.bk20.forest.progress.ProgressFragment"
-        android:label="@string/tree"
+        android:label="@string/menü1"
         tools:layout="@layout/fragment_progress" />
 
     <fragment
         android:id="@+id/statsFragment"
         android:name="pl.bk20.forest.stats.StatsFragment"
-        android:label="@string/stats"
+        android:label="@string/menü2"
         tools:layout="@layout/fragment_stats" />
 
     <fragment
         android:id="@+id/forestFragment"
         android:name="pl.bk20.forest.trees.ForestFragment"
-        android:label="@string/forest"
+        android:label="@string/menü3"
         tools:layout="@layout/fragment_forest" />
 
 </navigation>
