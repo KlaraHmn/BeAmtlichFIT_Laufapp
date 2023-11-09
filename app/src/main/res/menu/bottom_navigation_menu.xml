@@ -4,16 +4,16 @@
     <item
         android:id="@+id/forestFragment"
         android:icon="@drawable/forest_fill0_wght400_grad0_opsz24"
-        android:title="@string/forest" />
+        android:title="Übersicht" />
 
     <item
         android:id="@+id/progressFragment"
         android:icon="@drawable/nature_fill0_wght400_grad0_opsz24"
-        android:title="@string/tree" />
+        android:title="Schrittzähler" />
 
     <item
         android:id="@+id/statsFragment"
         android:icon="@drawable/show_chart_fill0_wght400_grad0_opsz24"
-        android:title="@string/stats" />
+        android:title="Statistik" />
 
 </menu>
